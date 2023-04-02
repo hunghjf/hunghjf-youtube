@@ -5,7 +5,7 @@ p {
 
 .thumbnails {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 100%;
     cursor: pointer;
     transition: border-radius 0.5s;
 }
