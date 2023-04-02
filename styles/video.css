@@ -5,9 +5,9 @@ p {
 
 .thumbnails {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: border-radius 0.15s;
+    transition: border-radius 0.5s;
 }
 .thumbnails:hover{
     border-radius: 0;
