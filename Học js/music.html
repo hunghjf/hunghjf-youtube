@@ -481,7 +481,7 @@
         let newIndex 
         do {
           newIndex = Math.floor(Math.random()*this.songs.length) //roll 0-10
-        }while(newIndex !== this.currentIndex)//index = 0 nên load ra só nào cx chơi trừ số 0
+        }while(newIndex === this.currentIndex)//index = 0 nên load ra só nào cx chơi trừ số 0
         this.currentIndex = newIndex//gán số vừa roll để phát nhạc
         this.loadCurrentSong();
       },
