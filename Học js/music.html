@@ -419,7 +419,7 @@
 
         //Xử lý tua nhạc
         progress.onmousedown = function () {
-          progress.onclick = function (e) {
+          progress.onchange = function (e) {
             var seekTime = e.target.value / 100 * audio.duration;
             audio.currentTime = seekTime;
           }
