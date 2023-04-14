@@ -29,7 +29,7 @@ headingElement.title='headiing'; //<h1 title="heading">
 // thêm attringbutes = phương thức
 headingElement.setAttribute('class','smt');
 //lấy tất cả
-console.log(headingElement.getAttribute('class')) //smt
+console.log(headingElement.getAttribute('class')) //smts
 
 // //3 Text 
 // //IntelText, textContent ko được hiểu là element
