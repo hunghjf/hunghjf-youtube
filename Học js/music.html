@@ -419,12 +419,15 @@
 
         //Xử lý tua nhạc
         progress.onmousedown = function () {
-          progress.onclick = function (e) {
+
+          audio.pause()
+        }
+                  progress.onchange = function (e) {
+          audio.pause()
+               
             var seekTime = e.target.value / 100 * audio.duration;
             audio.currentTime = seekTime;
           }
-          audio.pause()
-        }
         progress.onmouseup = function () {
           audio.play()
         }
