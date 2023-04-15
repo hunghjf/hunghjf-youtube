@@ -428,6 +428,7 @@
             var seekTime = e.target.value / 100 * audio.duration;
             audio.currentTime = seekTime;
           }
+         audio.play()
         progress.onmouseup = function () {
           audio.play()
         }
