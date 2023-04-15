@@ -422,13 +422,14 @@
 
           audio.pause()
         }
-                  progress.onchange = function (e) {
+         progress.onchange = function (e) {
           audio.pause()
                
             var seekTime = e.target.value / 100 * audio.duration;
             audio.currentTime = seekTime;
+audio.play()
           }
-         audio.play()
+         
         progress.onmouseup = function () {
           audio.play()
         }
